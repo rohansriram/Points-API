@@ -12,3 +12,7 @@ The Points API is used to track the points per payer spent by a particular user 
 
 #### ENDPOINTS
 
+1. /addPoint - POST request to add transactions for a specific payer and date.
+2. /spendPoints - POST request which returns a list of payer and points for each call.
+3. /listAll - GET request which returns all the payer details.
+4. /getBalance - GET request which returns all the updated balances after points spent. 
