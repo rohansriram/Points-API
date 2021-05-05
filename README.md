@@ -16,3 +16,6 @@ The Points API is used to track the points per payer spent by a particular user 
 2. /spendPoints - POST request which returns a list of payer and points for each call.
 3. /listAll - GET request which returns all the payer details.
 4. /getBalance - GET request which returns all the updated balances after points spent. 
+
+The endpoints can also be tested on Swagger playground on the server:
+**localhost:3000/docs**
